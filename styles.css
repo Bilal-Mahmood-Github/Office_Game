@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+}
+
+#gameCanvas {
+  display: block;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+}
+
+/* Styles for game elements */
+.character {
+  width: 40px;
+  height: 40px;
+  background-image: url("images/character.png");
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.obstacle {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  background-repeat: no-repeat;
+}
+
+.item {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  background-repeat: no-repeat;
+}
+
+.bat {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  background-repeat: no-repeat;
+}
+
+/* Additional styles for game UI, scores, etc. */
+.score {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  color: #333;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.timer {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  color: #333;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
